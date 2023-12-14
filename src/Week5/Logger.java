@@ -7,13 +7,15 @@ public interface Logger {
 //2.     Add two void methods to the Logger interface, each should take a String as an argument
 
 //a.  log
+public abstract void log(String input1);
 
 //b.  error
-
+public abstract void error(String input2);
 
 //3.     Create two classes that implement the Logger interface
 
-//a.  AsteriskLogger
+//a.  AsteriskLogger 
+
 
 //b.  SpacedLogger
 
@@ -21,7 +23,7 @@ public interface Logger {
 //4.  Implement the AsteriskLogger methods:  
 
 //Note:  The AsteriskLogger will use the asterisk or "*".
-
+  
 
 //a.  The log method on the AsteriskLogger should print out the String it receives between 3 asterisks on either side of the String (e.g. if the String passed in is “Hello”, then it should print ***Hello*** to the console).
 
@@ -50,4 +52,15 @@ public interface Logger {
 
 //b. Test both methods on both instances, passing in Strings of your choice.
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
